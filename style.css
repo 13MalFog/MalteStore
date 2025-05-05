@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.topBar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 1fr 1fr;
+    background-color: black;
+    height: 50px;
+    position: sticky;
+    top: 0;
+}
+
+.menyButton{
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.barBar{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.searchSearch{
+    grid-column: 2;
+    font-size: 18px;
+}
+
+.imgLogo{
+    height: 50px;
+}
+
+.browseItems{
+    display: grid;
+    grid-template-columns: 7fr 20fr 7fr;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    gap: 18px;
+}
+
+.imgImg{
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 29px;
+}
+
+.itemBox{
+    grid-column: 2;
+    background-color: rgb(230, 111, 0);
+    margin: auto;
+    height: 260px;
+    width: 260px;
+}
+
+.scrollItems{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 220px;
+    background-color: rgb(230, 111, 0);
+    align-items: center;
+}
+
+.scrollImg{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    object-fit: cover;
+}
+
+
+
+.produktInformation{
+    display: grid;
+    grid-template-columns: 7fr 20fr 7fr;
+
+}
+
+.produktBox{
+    grid-column: 2;
+    background-color: rgb(230, 111, 0);
+    margin: auto;
+}
+
+.produktImg{
+    height: 400px;
+}
+.produktText{
+    grid-column: 2;
+}
