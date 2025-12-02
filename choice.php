@@ -34,6 +34,7 @@
                     echo '<div class="produktInformation">
                             <div class="produktBox">
                                 <img class="produktImg" src="'.$row["bild"].'" alt="produkt">
+                                <button onclick="saveToCart('.$row["id"].')">Add to cart</button>
                             </div>
                             <p class="produktText">Mycket fint vin. Bla bla ble, blu blu blu, huubblublublublu. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae laboriosam voluptas minima perferendis expedita est, soluta minus? Neque dolores blanditiis ullam iure reprehenderit, nam iste non! Exercitationem earum necessitatibus excepturi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat iure veritatis, aliquid at adipisci molestiae accusantium debitis dicta dolorum commodi reiciendis, culpa vero repellendus dolor officia delectus quos odio similique.</p>
                         </div>';
